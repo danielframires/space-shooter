@@ -1,0 +1,43 @@
+#hangar{z-index:10;background:rgba(1,7,18,.94)}
+.hangar-panel{width:min(1060px,96vw);max-height:94vh;max-height:94dvh;overflow-y:auto;overscroll-behavior:contain;touch-action:pan-y;padding:22px 28px 27px;border:1px solid rgba(107,222,248,.38);background:linear-gradient(145deg,rgba(8,31,50,.99),rgba(3,13,27,.99));box-shadow:0 0 100px #000}
+.hangar-header,.hangar-header-right{display:flex;justify-content:space-between;align-items:center;gap:18px}
+.hangar-header h2{font:900 60px/.9 Barlow Condensed,Arial,sans-serif;letter-spacing:.04em;margin:6px 0 12px}
+.hangar-balance{display:flex;flex-direction:column;text-align:right;color:#84b6c8;font-size:10px;font-weight:700;letter-spacing:.14em}
+.hangar-balance strong{font:800 30px Barlow Condensed,Arial,sans-serif;color:#dffaff}
+.hangar-header .secondary-button{min-width:105px}
+.hangar-gallery{height:clamp(245px,39vh,340px);display:grid;grid-template-columns:100px minmax(0,1fr) 100px;gap:14px}
+.hangar-selectors{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px}
+.hangar-arrow{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;border:1px solid rgba(104,215,240,.4);background:linear-gradient(145deg,rgba(27,79,107,.76),rgba(6,31,52,.76));color:#bfefff;cursor:pointer;transition:background .2s,border-color .2s,transform .2s}
+.hangar-arrow:hover{background:rgba(41,129,161,.8);border-color:#a0f1ff;transform:translateY(-2px)}
+.hangar-arrow b{font:700 25px Barlow Condensed,Arial,sans-serif;line-height:1}
+.hangar-arrow span{font-size:10px;font-weight:700;letter-spacing:.18em}
+.hangar-arrow.ship-arrow{width:100%;height:100px}.hangar-arrow.skin-arrow{width:68px;height:60px}
+.hangar-stage{position:relative;min-width:0;overflow:hidden;border:1px solid rgba(105,220,250,.28);background:radial-gradient(ellipse at 50% 60%,rgba(39,123,159,.3),transparent 48%),linear-gradient(180deg,#071625,#0b2535 67%,#06131f)}
+.hangar-stage:before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.38;background-image:linear-gradient(rgba(83,191,224,.11) 1px,transparent 1px),linear-gradient(90deg,rgba(83,191,224,.11) 1px,transparent 1px);background-size:38px 38px;mask-image:linear-gradient(transparent 24%,black)}
+.hangar-stage:after{content:"";position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 55px rgba(2,11,24,.85)}
+#hangar-canvas,#hangar-canvas canvas{position:absolute;inset:0;width:100%;height:100%;display:block;pointer-events:none}
+.stage-caption,.stage-status{position:absolute;z-index:2;left:14px;font-size:9px;font-weight:700;letter-spacing:.18em;color:#83c8da;text-shadow:0 0 8px #00111a}
+.stage-caption{top:13px}.stage-status{bottom:13px;color:#c1eff9}
+.hangar-identity{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding:16px 8px 12px;text-align:center;border-bottom:1px solid rgba(103,204,229,.15)}
+.hangar-identity span{font-size:10px;color:#78afc1;letter-spacing:.2em;font-weight:700}
+.hangar-identity h3{margin:2px 0 0;font:900 30px/.95 Barlow Condensed,Arial,sans-serif;letter-spacing:.08em;color:#edfbff}
+.hangar-ship-description{padding:7px 8px 2px;text-align:center;color:#84b6c8;font:700 11px Rajdhani,Arial,sans-serif;letter-spacing:.06em}
+#hangar-skin-name{overflow-wrap:anywhere}
+.hangar-swatches{display:flex;justify-content:center;gap:5px;margin-top:6px}
+.hangar-swatches i{display:block;width:31px;height:8px;transform:skew(-22deg);box-shadow:0 0 8px rgba(255,255,255,.16)}
+.hangar-swatches i.emissive{box-shadow:0 0 9px var(--swatch),0 0 18px var(--swatch)}
+.hangar-purchases{min-height:45px;display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;padding:10px 0 4px}
+.hangar-purchases button{padding:9px 16px;border:1px solid #7beaff;background:#67e3fb;color:#052536;cursor:pointer;font:800 15px Barlow Condensed,Arial,sans-serif;letter-spacing:.1em}
+.hangar-purchases button:hover{background:#baf4ff}.hangar-purchases button:disabled{opacity:.42;cursor:default}
+.hangar-equipped{color:#5fcbaa;font-size:10px;letter-spacing:.15em;font-weight:700}
+.hangar-attribute-head{display:flex;justify-content:space-between;gap:15px;align-items:center;margin:7px 0 10px;color:#8cddf3;font:800 17px Barlow Condensed,Arial,sans-serif;letter-spacing:.12em}
+.hangar-attribute-head small{font:700 10px Rajdhani,Arial,sans-serif;color:#648fa2;letter-spacing:.09em}
+.hangar-attributes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px 18px}
+.hangar-attribute{padding:10px 13px 8px;background:rgba(14,48,69,.61);border:1px solid rgba(100,174,202,.2)}
+.attribute-top,.attribute-bottom,.attribute-foot{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.attribute-top span{font-size:10px;color:#a6cada;font-weight:700;letter-spacing:.11em}.attribute-top strong{font:800 19px Barlow Condensed,Arial,sans-serif;color:#e3f9ff;letter-spacing:.05em}
+.attribute-bottom{margin:5px 0 2px}.attribute-bar{position:relative;height:7px;flex:1;background:rgba(70,137,159,.19);overflow:hidden}.attribute-bar i,.attribute-bar b{position:absolute;top:0;bottom:0;display:block}.attribute-bar i{left:0;background:linear-gradient(90deg,#246989,#65c8e0)}.attribute-bar b{background:linear-gradient(90deg,#b3f48e,#e8ffb9)}
+.attribute-bottom button{width:27px;height:27px;flex:none;border:1px solid #6cddf3;background:#174f68;color:#c9f8ff;font:800 23px/1 Barlow Condensed,Arial,sans-serif;cursor:pointer}.attribute-bottom button:hover{background:#69e5ff;color:#073047}.attribute-bottom button:disabled{opacity:.36;cursor:default}
+.attribute-foot{font-size:9px;font-weight:700;letter-spacing:.12em;color:#6e9dac}.attribute-foot span:last-child{color:#c8e29e}
+@media(max-width:700px){.hangar-panel{width:97vw;max-height:97dvh;padding:15px 12px 20px}.hangar-header h2{font-size:43px}.hangar-header .eyebrow{font-size:8px;white-space:normal}.hangar-header-right{gap:8px}.hangar-header .secondary-button{min-width:0;padding:8px;font-size:12px;gap:5px}.hangar-balance{font-size:8px}.hangar-balance strong{font-size:24px}.hangar-gallery{height:245px;grid-template-columns:48px minmax(0,1fr) 48px;gap:5px}.hangar-selectors{gap:10px}.hangar-arrow.ship-arrow{height:86px}.hangar-arrow.skin-arrow{width:39px;height:54px}.hangar-arrow b{font-size:19px}.hangar-arrow span{font-size:8px}.stage-caption,.stage-status{left:6px;font-size:7px;letter-spacing:.07em}.hangar-identity{gap:5px}.hangar-identity h3{font-size:23px}.hangar-attribute-head{font-size:14px}.hangar-attribute-head small{font-size:8px;text-align:right}.hangar-attributes{grid-template-columns:1fr;gap:7px}.hangar-attribute{padding:8px 10px 6px}}
+@media(max-width:700px){#hangar-skin-name{font-size:20px}}

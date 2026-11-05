@@ -1,0 +1,1692 @@
+{
+  "hammer": {
+    "caosReto": {
+      "kind": "hammer",
+      "speed": 35,
+      "duration": 14,
+      "minDistance": 0.55,
+      "collisions": 2,
+      "shots": 0,
+      "bulletHits": 0,
+      "transitions": {
+        "hammerPrepare": 3,
+        "hammerCharge": 2,
+        "hammerRecover": 2,
+        "hammerApproach": 2
+      },
+      "states": {
+        "hammerPrepare": 1.6166666666666658,
+        "hammerCharge": 2.2333333333333303,
+        "hammerRecover": 4.099999999999991,
+        "hammerApproach": 6.049999999999984
+      },
+      "intervals": {
+        "detect": [
+          0
+        ],
+        "hammerPrepare": [
+          0.6,
+          0.5999999999999996
+        ],
+        "hammerCharge": [
+          1.5166666666666666,
+          0.7166666666666668
+        ],
+        "hammerRecover": [
+          2.0833333333333335,
+          2.0166666666666675
+        ],
+        "hammerApproach": [
+          4.366666666666666,
+          1.6833333333333336
+        ]
+      },
+      "transitionDetails": [
+        {
+          "at": 0,
+          "state": "hammerPrepare",
+          "distance": 55.4,
+          "ahead": -55.4
+        },
+        {
+          "at": 0.6,
+          "state": "hammerCharge",
+          "distance": 58.4,
+          "ahead": -58.4
+        },
+        {
+          "at": 2.12,
+          "state": "hammerRecover",
+          "distance": 9.1,
+          "ahead": -9.1
+        },
+        {
+          "at": 4.2,
+          "state": "hammerApproach",
+          "distance": 40.7,
+          "ahead": -18
+        },
+        {
+          "at": 8.57,
+          "state": "hammerPrepare",
+          "distance": 62.4,
+          "ahead": -21.5
+        },
+        {
+          "at": 9.17,
+          "state": "hammerCharge",
+          "distance": 37.7,
+          "ahead": -17.4
+        },
+        {
+          "at": 9.88,
+          "state": "hammerRecover",
+          "distance": 6.5,
+          "ahead": -6.1
+        },
+        {
+          "at": 11.9,
+          "state": "hammerApproach",
+          "distance": 10.6,
+          "ahead": -7.9
+        },
+        {
+          "at": 13.58,
+          "state": "hammerPrepare",
+          "distance": 50,
+          "ahead": 0.8
+        }
+      ],
+      "passes": 3,
+      "warningTime": 3.87,
+      "maxEnemySpeed": 76.64,
+      "maxChargeTurn": 0,
+      "maxAttackTurnRate": 0,
+      "maxPrepareTurnRate": 1.1,
+      "chargeStartTimes": [
+        0.6,
+        9.17
+      ],
+      "timeBehind": 11.83,
+      "timeSilent": 0,
+      "attackTime": 0,
+      "attackShots": 0,
+      "silentAimTime": 0,
+      "offNearTime": 0,
+      "minOffAngle": 180,
+      "minOffDistance": null,
+      "remaining": 1
+    },
+    "flechaMax": {
+      "kind": "hammer",
+      "speed": 120,
+      "duration": 10,
+      "minDistance": 0.52,
+      "collisions": 1,
+      "shots": 0,
+      "bulletHits": 0,
+      "transitions": {
+        "hammerPrepare": 1,
+        "hammerRecover": 1,
+        "patrol": 1
+      },
+      "states": {
+        "hammerPrepare": 0.35,
+        "hammerRecover": 1.183333333333334,
+        "patrol": 8.466666666666667
+      },
+      "intervals": {
+        "detect": [
+          0
+        ],
+        "hammerPrepare": [
+          0.35
+        ],
+        "hammerRecover": [
+          1.1833333333333331
+        ]
+      },
+      "transitionDetails": [
+        {
+          "at": 0,
+          "state": "hammerPrepare",
+          "distance": 57.8,
+          "ahead": 57.8
+        },
+        {
+          "at": 0.35,
+          "state": "hammerRecover",
+          "distance": 7.1,
+          "ahead": 7.1
+        },
+        {
+          "at": 1.53,
+          "state": "patrol",
+          "distance": 170.4,
+          "ahead": -170
+        }
+      ],
+      "passes": 1,
+      "warningTime": 0.37,
+      "maxEnemySpeed": 33.22,
+      "maxChargeTurn": 0,
+      "maxAttackTurnRate": 0,
+      "maxPrepareTurnRate": 0,
+      "chargeStartTimes": [],
+      "timeBehind": 9.6,
+      "timeSilent": 0,
+      "attackTime": 0,
+      "attackShots": 0,
+      "silentAimTime": 0,
+      "offNearTime": 0,
+      "minOffAngle": 180,
+      "minOffDistance": null,
+      "remaining": 0
+    },
+    "vespaCurva": {
+      "kind": "hammer",
+      "speed": 75,
+      "duration": 14,
+      "minDistance": 56.03,
+      "collisions": 0,
+      "shots": 0,
+      "bulletHits": 0,
+      "transitions": {
+        "hammerPrepare": 1,
+        "hammerCharge": 1,
+        "hammerRecover": 1,
+        "patrol": 1
+      },
+      "states": {
+        "hammerPrepare": 0.6000000000000002,
+        "hammerCharge": 1.5166666666666662,
+        "hammerRecover": 1.183333333333334,
+        "patrol": 10.700000000000111
+      },
+      "intervals": {
+        "detect": [
+          0
+        ],
+        "hammerPrepare": [
+          0.6
+        ],
+        "hammerCharge": [
+          1.5166666666666666
+        ],
+        "hammerRecover": [
+          1.1833333333333331
+        ]
+      },
+      "transitionDetails": [
+        {
+          "at": 0,
+          "state": "hammerPrepare",
+          "distance": 56,
+          "ahead": -56
+        },
+        {
+          "at": 0.6,
+          "state": "hammerCharge",
+          "distance": 83.1,
+          "ahead": -83.1
+        },
+        {
+          "at": 2.12,
+          "state": "hammerRecover",
+          "distance": 70.9,
+          "ahead": -16.6
+        },
+        {
+          "at": 3.3,
+          "state": "patrol",
+          "distance": 170.7,
+          "ahead": -146.6
+        }
+      ],
+      "passes": 0,
+      "warningTime": 2.12,
+      "maxEnemySpeed": 76.64,
+      "maxChargeTurn": 0,
+      "maxAttackTurnRate": 0,
+      "maxPrepareTurnRate": 0,
+      "chargeStartTimes": [
+        0.6
+      ],
+      "timeBehind": 14,
+      "timeSilent": 0,
+      "attackTime": 0,
+      "attackShots": 0,
+      "silentAimTime": 0,
+      "offNearTime": 0,
+      "minOffAngle": 180,
+      "minOffDistance": null,
+      "remaining": 0
+    },
+    "tanqueModerado": {
+      "kind": "hammer",
+      "speed": 35,
+      "duration": 14,
+      "minDistance": 0.55,
+      "collisions": 2,
+      "shots": 0,
+      "bulletHits": 0,
+      "transitions": {
+        "hammerPrepare": 3,
+        "hammerCharge": 2,
+        "hammerRecover": 2,
+        "hammerApproach": 2
+      },
+      "states": {
+        "hammerPrepare": 1.6166666666666658,
+        "hammerCharge": 2.2333333333333303,
+        "hammerRecover": 4.099999999999991,
+        "hammerApproach": 6.049999999999984
+      },
+      "intervals": {
+        "detect": [
+          0
+        ],
+        "hammerPrepare": [
+          0.6,
+          0.5999999999999996
+        ],
+        "hammerCharge": [
+          1.5166666666666666,
+          0.7166666666666668
+        ],
+        "hammerRecover": [
+          2.0833333333333335,
+          2.0166666666666675
+        ],
+        "hammerApproach": [
+          4.366666666666666,
+          1.6833333333333336
+        ]
+      },
+      "transitionDetails": [
+        {
+          "at": 0,
+          "state": "hammerPrepare",
+          "distance": 55.4,
+          "ahead": -55.4
+        },
+        {
+          "at": 0.6,
+          "state": "hammerCharge",
+          "distance": 58.4,
+          "ahead": -58.4
+        },
+        {
+          "at": 2.12,
+          "state": "hammerRecover",
+          "distance": 9.1,
+          "ahead": -9.1
+        },
+        {
+          "at": 4.2,
+          "state": "hammerApproach",
+          "distance": 40.7,
+          "ahead": -18
+        },
+        {
+          "at": 8.57,
+          "state": "hammerPrepare",
+          "distance": 62.4,
+          "ahead": -21.5
+        },
+        {
+          "at": 9.17,
+          "state": "hammerCharge",
+          "distance": 37.7,
+          "ahead": -17.4
+        },
+        {
+          "at": 9.88,
+          "state": "hammerRecover",
+          "distance": 6.5,
+          "ahead": -6.1
+        },
+        {
+          "at": 11.9,
+          "state": "hammerApproach",
+          "distance": 10.6,
+          "ahead": -7.9
+        },
+        {
+          "at": 13.58,
+          "state": "hammerPrepare",
+          "distance": 50,
+          "ahead": 0.8
+        }
+      ],
+      "passes": 3,
+      "warningTime": 3.87,
+      "maxEnemySpeed": 76.64,
+      "maxChargeTurn": 0,
+      "maxAttackTurnRate": 0,
+      "maxPrepareTurnRate": 1.1,
+      "chargeStartTimes": [
+        0.6,
+        9.17
+      ],
+      "timeBehind": 11.83,
+      "timeSilent": 0,
+      "attackTime": 0,
+      "attackShots": 0,
+      "silentAimTime": 0,
+      "offNearTime": 0,
+      "minOffAngle": 180,
+      "minOffDistance": null,
+      "remaining": 1
+    },
+    "caosDesvio": {
+      "kind": "hammer",
+      "speed": 35,
+      "duration": 14,
+      "minDistance": 25.75,
+      "collisions": 0,
+      "shots": 0,
+      "bulletHits": 0,
+      "transitions": {
+        "hammerPrepare": 1,
+        "hammerCharge": 1,
+        "hammerRecover": 1,
+        "patrol": 1
+      },
+      "states": {
+        "hammerPrepare": 0.6000000000000002,
+        "hammerCharge": 1.5166666666666662,
+        "hammerRecover": 1.733333333333332,
+        "patrol": 10.150000000000084
+      },
+      "intervals": {
+        "detect": [
+          0
+        ],
+        "hammerPrepare": [
+          0.6
+        ],
+        "hammerCharge": [
+          1.5166666666666666
+        ],
+        "hammerRecover": [
+          1.7333333333333334
+        ]
+      },
+      "transitionDetails": [
+        {
+          "at": 0,
+          "state": "hammerPrepare",
+          "distance": 55.4,
+          "ahead": -55.4
+        },
+        {
+          "at": 0.6,
+          "state": "hammerCharge",
+          "distance": 58.4,
+          "ahead": -58.4
+        },
+        {
+          "at": 2.12,
+          "state": "hammerRecover",
+          "distance": 52,
+          "ahead": -42.7
+        },
+        {
+          "at": 3.85,
+          "state": "patrol",
+          "distance": 170.4,
+          "ahead": -156.1
+        }
+      ],
+      "passes": 0,
+      "warningTime": 2.12,
+      "maxEnemySpeed": 76.64,
+      "maxChargeTurn": 0,
+      "maxAttackTurnRate": 0,
+      "maxPrepareTurnRate": 0,
+      "chargeStartTimes": [
+        0.6
+      ],
+      "timeBehind": 14,
+      "timeSilent": 0,
+      "attackTime": 0,
+      "attackShots": 0,
+      "silentAimTime": 0,
+      "offNearTime": 0,
+      "minOffAngle": 180,
+      "minOffDistance": null,
+      "remaining": 0
+    }
+  },
+  "pursuer": {
+    "caos": {
+      "kind": "pursuer",
+      "speed": 35,
+      "duration": 20,
+      "minDistance": 0.17,
+      "collisions": 2,
+      "shots": 6,
+      "bulletHits": 3,
+      "transitions": {
+        "pursuerIntercept": 2,
+        "pursuerAttack": 2,
+        "pursuerPass": 2,
+        "pursuerReposition": 2
+      },
+      "states": {
+        "pursuerIntercept": 5.899999999999984,
+        "pursuerAttack": 5.883333333333318,
+        "pursuerPass": 4.583333333333322,
+        "pursuerReposition": 3.6333333333333253
+      },
+      "intervals": {
+        "detect": [
+          0
+        ],
+        "pursuerIntercept": [
+          0.4166666666666667,
+          5.483333333333333
+        ],
+        "pursuerAttack": [
+          2.7666666666666666,
+          3.1166666666666654
+        ],
+        "pursuerPass": [
+          2.3666666666666667,
+          2.2166666666666686
+        ],
+        "pursuerReposition": [
+          1.9333333333333336
+        ]
+      },
+      "transitionDetails": [
+        {
+          "at": 0,
+          "state": "pursuerIntercept",
+          "distance": 80.2,
+          "ahead": -80.2
+        },
+        {
+          "at": 0.42,
+          "state": "pursuerAttack",
+          "distance": 73.8,
+          "ahead": -73.8
+        },
+        {
+          "at": 3.18,
+          "state": "pursuerPass",
+          "distance": 42.8,
+          "ahead": 16.5
+        },
+        {
+          "at": 5.55,
+          "state": "pursuerReposition",
+          "distance": 168.4,
+          "ahead": -163.8
+        },
+        {
+          "at": 7.48,
+          "state": "pursuerIntercept",
+          "distance": 292.8,
+          "ahead": -221.7
+        },
+        {
+          "at": 12.97,
+          "state": "pursuerAttack",
+          "distance": 73.1,
+          "ahead": -64.2
+        },
+        {
+          "at": 16.08,
+          "state": "pursuerPass",
+          "distance": 94.3,
+          "ahead": -79.7
+        },
+        {
+          "at": 18.3,
+          "state": "pursuerReposition",
+          "distance": 114.5,
+          "ahead": -83.8
+        }
+      ],
+      "passes": 2,
+      "warningTime": 0,
+      "maxEnemySpeed": 99.89,
+      "maxChargeTurn": 0,
+      "maxAttackTurnRate": 1.9,
+      "maxPrepareTurnRate": 0,
+      "chargeStartTimes": [],
+      "timeBehind": 17.55,
+      "timeSilent": 8.22,
+      "attackTime": 5.88,
+      "attackShots": 6,
+      "silentAimTime": 0,
+      "offNearTime": 4.02,
+      "minOffAngle": 67.2,
+      "minOffDistance": 42.8,
+      "remaining": 1
+    },
+    "caosDesvio": {
+      "kind": "pursuer",
+      "speed": 35,
+      "duration": 20,
+      "minDistance": 1.88,
+      "collisions": 1,
+      "shots": 3,
+      "bulletHits": 0,
+      "transitions": {
+        "pursuerIntercept": 1,
+        "pursuerAttack": 1,
+        "pursuerPass": 1,
+        "pursuerReposition": 1,
+        "patrol": 1
+      },
+      "states": {
+        "pursuerIntercept": 0.41666666666666663,
+        "pursuerAttack": 2.7666666666666617,
+        "pursuerPass": 2.2999999999999967,
+        "pursuerReposition": 1.9999999999999978,
+        "patrol": 12.516666666666868
+      },
+      "intervals": {
+        "detect": [
+          0
+        ],
+        "pursuerIntercept": [
+          0.4166666666666667
+        ],
+        "pursuerAttack": [
+          2.7666666666666666
+        ],
+        "pursuerPass": [
+          2.3000000000000003
+        ],
+        "pursuerReposition": [
+          2
+        ]
+      },
+      "transitionDetails": [
+        {
+          "at": 0,
+          "state": "pursuerIntercept",
+          "distance": 80.2,
+          "ahead": -80.2
+        },
+        {
+          "at": 0.42,
+          "state": "pursuerAttack",
+          "distance": 73.8,
+          "ahead": -73.8
+        },
+        {
+          "at": 3.18,
+          "state": "pursuerPass",
+          "distance": 21.8,
+          "ahead": -3.8
+        },
+        {
+          "at": 5.48,
+          "state": "pursuerReposition",
+          "distance": 207,
+          "ahead": -206.2
+        },
+        {
+          "at": 7.48,
+          "state": "patrol",
+          "distance": 400.3,
+          "ahead": -390.8
+        }
+      ],
+      "passes": 1,
+      "warningTime": 0,
+      "maxEnemySpeed": 99.71,
+      "maxChargeTurn": 0,
+      "maxAttackTurnRate": 1.9,
+      "maxPrepareTurnRate": 0,
+      "chargeStartTimes": [],
+      "timeBehind": 19.67,
+      "timeSilent": 4.3,
+      "attackTime": 2.77,
+      "attackShots": 3,
+      "silentAimTime": 0,
+      "offNearTime": 1.63,
+      "minOffAngle": 84.2,
+      "minOffDistance": 1.9,
+      "remaining": 0
+    },
+    "vespa": {
+      "kind": "pursuer",
+      "speed": 75,
+      "duration": 20,
+      "minDistance": 3.48,
+      "collisions": 1,
+      "shots": 6,
+      "bulletHits": 0,
+      "transitions": {
+        "pursuerIntercept": 3,
+        "pursuerAttack": 2,
+        "pursuerPass": 2,
+        "pursuerReposition": 2
+      },
+      "states": {
+        "pursuerIntercept": 5.416666666666653,
+        "pursuerAttack": 5.883333333333318,
+        "pursuerPass": 4.583333333333322,
+        "pursuerReposition": 4.116666666666657
+      },
+      "intervals": {
+        "detect": [
+          0
+        ],
+        "pursuerIntercept": [
+          1.2833333333333332,
+          0.16666666666666607
+        ],
+        "pursuerAttack": [
+          2.7666666666666666,
+          3.116666666666667
+        ],
+        "pursuerPass": [
+          2.366666666666667,
+          2.216666666666667
+        ],
+        "pursuerReposition": [
+          1.9333333333333327,
+          2.183333333333332
+        ]
+      },
+      "transitionDetails": [
+        {
+          "at": 0,
+          "state": "pursuerIntercept",
+          "distance": 80.9,
+          "ahead": -80.9
+        },
+        {
+          "at": 1.28,
+          "state": "pursuerAttack",
+          "distance": 73.1,
+          "ahead": -38.4
+        },
+        {
+          "at": 4.05,
+          "state": "pursuerPass",
+          "distance": 81.4,
+          "ahead": -77
+        },
+        {
+          "at": 6.42,
+          "state": "pursuerReposition",
+          "distance": 40.9,
+          "ahead": -27.5
+        },
+        {
+          "at": 8.35,
+          "state": "pursuerIntercept",
+          "distance": 47.4,
+          "ahead": -43.1
+        },
+        {
+          "at": 8.52,
+          "state": "pursuerAttack",
+          "distance": 54.4,
+          "ahead": -46.1
+        },
+        {
+          "at": 11.63,
+          "state": "pursuerPass",
+          "distance": 30.9,
+          "ahead": -30.9
+        },
+        {
+          "at": 13.85,
+          "state": "pursuerReposition",
+          "distance": 12.7,
+          "ahead": 12
+        },
+        {
+          "at": 16.03,
+          "state": "pursuerIntercept",
+          "distance": 114.3,
+          "ahead": -52.7
+        }
+      ],
+      "passes": 1,
+      "warningTime": 0,
+      "maxEnemySpeed": 99.97,
+      "maxChargeTurn": 0,
+      "maxAttackTurnRate": 1.9,
+      "maxPrepareTurnRate": 0,
+      "chargeStartTimes": [],
+      "timeBehind": 18,
+      "timeSilent": 8.7,
+      "attackTime": 5.88,
+      "attackShots": 6,
+      "silentAimTime": 0.83,
+      "offNearTime": 8.7,
+      "minOffAngle": 16.9,
+      "minOffDistance": 3.5,
+      "remaining": 1
+    },
+    "flecha": {
+      "kind": "pursuer",
+      "speed": 120,
+      "duration": 20,
+      "minDistance": 81.62,
+      "collisions": 0,
+      "shots": 0,
+      "bulletHits": 0,
+      "transitions": {
+        "pursuerIntercept": 1,
+        "patrol": 1
+      },
+      "states": {
+        "pursuerIntercept": 14.116666666666948,
+        "patrol": 5.883333333333318
+      },
+      "intervals": {
+        "detect": [
+          0
+        ],
+        "pursuerIntercept": [
+          14.116666666666667
+        ]
+      },
+      "transitionDetails": [
+        {
+          "at": 0,
+          "state": "pursuerIntercept",
+          "distance": 81.6,
+          "ahead": -81.6
+        },
+        {
+          "at": 14.12,
+          "state": "patrol",
+          "distance": 398.5,
+          "ahead": -398.5
+        }
+      ],
+      "passes": 0,
+      "warningTime": 0,
+      "maxEnemySpeed": 100,
+      "maxChargeTurn": 0,
+      "maxAttackTurnRate": 0,
+      "maxPrepareTurnRate": 0,
+      "chargeStartTimes": [],
+      "timeBehind": 20,
+      "timeSilent": 0,
+      "attackTime": 0,
+      "attackShots": 0,
+      "silentAimTime": 0,
+      "offNearTime": 0,
+      "minOffAngle": 180,
+      "minOffDistance": null,
+      "remaining": 0
+    },
+    "flechaCurva": {
+      "kind": "pursuer",
+      "speed": 120,
+      "duration": 20,
+      "minDistance": 59.37,
+      "collisions": 0,
+      "shots": 2,
+      "bulletHits": 0,
+      "transitions": {
+        "pursuerIntercept": 2,
+        "pursuerAttack": 1,
+        "pursuerPass": 1,
+        "pursuerReposition": 1,
+        "patrol": 1
+      },
+      "states": {
+        "pursuerIntercept": 8.683333333333344,
+        "pursuerAttack": 2.7666666666666617,
+        "pursuerPass": 2.2999999999999967,
+        "pursuerReposition": 1.7999999999999985,
+        "patrol": 4.4499999999999895
+      },
+      "intervals": {
+        "detect": [
+          0
+        ],
+        "pursuerIntercept": [
+          3.1333333333333333,
+          5.549999999999999
+        ],
+        "pursuerAttack": [
+          2.766666666666667
+        ],
+        "pursuerPass": [
+          2.299999999999999
+        ],
+        "pursuerReposition": [
+          1.8000000000000007
+        ]
+      },
+      "transitionDetails": [
+        {
+          "at": 0,
+          "state": "pursuerIntercept",
+          "distance": 81.6,
+          "ahead": -81.6
+        },
+        {
+          "at": 3.13,
+          "state": "pursuerAttack",
+          "distance": 73.4,
+          "ahead": -30
+        },
+        {
+          "at": 5.9,
+          "state": "pursuerPass",
+          "distance": 131.3,
+          "ahead": -131.1
+        },
+        {
+          "at": 8.2,
+          "state": "pursuerReposition",
+          "distance": 177.9,
+          "ahead": -177.9
+        },
+        {
+          "at": 10,
+          "state": "pursuerIntercept",
+          "distance": 269,
+          "ahead": -264
+        },
+        {
+          "at": 15.55,
+          "state": "patrol",
+          "distance": 398.6,
+          "ahead": -397.9
+        }
+      ],
+      "passes": 0,
+      "warningTime": 0,
+      "maxEnemySpeed": 100,
+      "maxChargeTurn": 0,
+      "maxAttackTurnRate": 1.9,
+      "maxPrepareTurnRate": 0,
+      "chargeStartTimes": [],
+      "timeBehind": 20,
+      "timeSilent": 4.1,
+      "attackTime": 2.77,
+      "attackShots": 2,
+      "silentAimTime": 0,
+      "offNearTime": 0,
+      "minOffAngle": 180,
+      "minOffDistance": 131.3,
+      "remaining": 0
+    },
+    "tanque": {
+      "kind": "pursuer",
+      "speed": 35,
+      "duration": 20,
+      "minDistance": 0.17,
+      "collisions": 1,
+      "shots": 8,
+      "bulletHits": 3,
+      "transitions": {
+        "pursuerIntercept": 3,
+        "pursuerAttack": 3,
+        "pursuerPass": 2,
+        "pursuerReposition": 2
+      },
+      "states": {
+        "pursuerIntercept": 3.8333333333333246,
+        "pursuerAttack": 7.19999999999998,
+        "pursuerPass": 4.549999999999989,
+        "pursuerReposition": 4.416666666666656
+      },
+      "intervals": {
+        "detect": [
+          0
+        ],
+        "pursuerIntercept": [
+          0.4166666666666667,
+          1.8666666666666671,
+          1.5500000000000007
+        ],
+        "pursuerAttack": [
+          2.7666666666666666,
+          2.8166666666666664
+        ],
+        "pursuerPass": [
+          2.1999999999999997,
+          2.3499999999999996
+        ],
+        "pursuerReposition": [
+          2.25,
+          2.166666666666666
+        ]
+      },
+      "transitionDetails": [
+        {
+          "at": 0,
+          "state": "pursuerIntercept",
+          "distance": 80.2,
+          "ahead": -80.2
+        },
+        {
+          "at": 0.42,
+          "state": "pursuerAttack",
+          "distance": 73.8,
+          "ahead": -73.8
+        },
+        {
+          "at": 3.18,
+          "state": "pursuerPass",
+          "distance": 42.8,
+          "ahead": 16.5
+        },
+        {
+          "at": 5.38,
+          "state": "pursuerReposition",
+          "distance": 157.6,
+          "ahead": -155.9
+        },
+        {
+          "at": 7.63,
+          "state": "pursuerIntercept",
+          "distance": 193.3,
+          "ahead": -145.5
+        },
+        {
+          "at": 9.5,
+          "state": "pursuerAttack",
+          "distance": 73.2,
+          "ahead": -62
+        },
+        {
+          "at": 12.32,
+          "state": "pursuerPass",
+          "distance": 70.5,
+          "ahead": -47.6
+        },
+        {
+          "at": 14.67,
+          "state": "pursuerReposition",
+          "distance": 132.3,
+          "ahead": -101.7
+        },
+        {
+          "at": 16.83,
+          "state": "pursuerIntercept",
+          "distance": 154.5,
+          "ahead": -17.8
+        },
+        {
+          "at": 18.38,
+          "state": "pursuerAttack",
+          "distance": 72.6,
+          "ahead": 7.7
+        }
+      ],
+      "passes": 3,
+      "warningTime": 0,
+      "maxEnemySpeed": 99.73,
+      "maxChargeTurn": 0,
+      "maxAttackTurnRate": 1.9,
+      "maxPrepareTurnRate": 0,
+      "chargeStartTimes": [],
+      "timeBehind": 15.98,
+      "timeSilent": 8.97,
+      "attackTime": 7.2,
+      "attackShots": 8,
+      "silentAimTime": 0,
+      "offNearTime": 2.15,
+      "minOffAngle": 67.2,
+      "minOffDistance": 42.8,
+      "remaining": 1
+    },
+    "dominadora": {
+      "kind": "pursuer",
+      "speed": 90,
+      "duration": 20,
+      "minDistance": 18.89,
+      "collisions": 0,
+      "shots": 7,
+      "bulletHits": 0,
+      "transitions": {
+        "pursuerIntercept": 3,
+        "pursuerAttack": 3,
+        "pursuerPass": 2,
+        "pursuerReposition": 2
+      },
+      "states": {
+        "pursuerIntercept": 5.199999999999987,
+        "pursuerAttack": 6.099999999999984,
+        "pursuerPass": 4.583333333333322,
+        "pursuerReposition": 4.116666666666657
+      },
+      "intervals": {
+        "detect": [
+          0
+        ],
+        "pursuerIntercept": [
+          2.3833333333333333,
+          2.716666666666667,
+          0.09999999999999787
+        ],
+        "pursuerAttack": [
+          2.766666666666667,
+          3.116666666666667
+        ],
+        "pursuerPass": [
+          2.3666666666666663,
+          2.216666666666667
+        ],
+        "pursuerReposition": [
+          1.9333333333333327,
+          2.1833333333333336
+        ]
+      },
+      "transitionDetails": [
+        {
+          "at": 0,
+          "state": "pursuerIntercept",
+          "distance": 81.1,
+          "ahead": -81.1
+        },
+        {
+          "at": 2.38,
+          "state": "pursuerAttack",
+          "distance": 72.9,
+          "ahead": -47.8
+        },
+        {
+          "at": 5.15,
+          "state": "pursuerPass",
+          "distance": 68.2,
+          "ahead": -67.6
+        },
+        {
+          "at": 7.52,
+          "state": "pursuerReposition",
+          "distance": 46.8,
+          "ahead": -46.2
+        },
+        {
+          "at": 9.45,
+          "state": "pursuerIntercept",
+          "distance": 90.1,
+          "ahead": -78
+        },
+        {
+          "at": 12.17,
+          "state": "pursuerAttack",
+          "distance": 73.2,
+          "ahead": -72.1
+        },
+        {
+          "at": 15.28,
+          "state": "pursuerPass",
+          "distance": 42,
+          "ahead": -42
+        },
+        {
+          "at": 17.5,
+          "state": "pursuerReposition",
+          "distance": 19.8,
+          "ahead": -19.8
+        },
+        {
+          "at": 19.68,
+          "state": "pursuerIntercept",
+          "distance": 68.2,
+          "ahead": -47.3
+        },
+        {
+          "at": 19.78,
+          "state": "pursuerAttack",
+          "distance": 70.4,
+          "ahead": -48.4
+        }
+      ],
+      "passes": 0,
+      "warningTime": 0,
+      "maxEnemySpeed": 100,
+      "maxChargeTurn": 0,
+      "maxAttackTurnRate": 1.9,
+      "maxPrepareTurnRate": 0,
+      "chargeStartTimes": [],
+      "timeBehind": 20,
+      "timeSilent": 8.7,
+      "attackTime": 6.1,
+      "attackShots": 7,
+      "silentAimTime": 0,
+      "offNearTime": 8.7,
+      "minOffAngle": 134,
+      "minOffDistance": 18.9,
+      "remaining": 1
+    },
+    "dominadoraCruzeiro": {
+      "kind": "pursuer",
+      "speed": 35,
+      "duration": 20,
+      "minDistance": 3.79,
+      "collisions": 1,
+      "shots": 9,
+      "bulletHits": 0,
+      "transitions": {
+        "pursuerIntercept": 3,
+        "pursuerAttack": 3,
+        "pursuerPass": 2,
+        "pursuerReposition": 2
+      },
+      "states": {
+        "pursuerIntercept": 3.099999999999994,
+        "pursuerAttack": 8.45,
+        "pursuerPass": 4.266666666666657,
+        "pursuerReposition": 4.183333333333324
+      },
+      "intervals": {
+        "detect": [
+          0
+        ],
+        "pursuerIntercept": [
+          0.4166666666666667,
+          1.2333333333333343,
+          1.4499999999999993
+        ],
+        "pursuerAttack": [
+          2.7666666666666666,
+          3.133333333333333
+        ],
+        "pursuerPass": [
+          2.15,
+          2.116666666666667
+        ],
+        "pursuerReposition": [
+          2.0166666666666666,
+          2.166666666666666
+        ]
+      },
+      "transitionDetails": [
+        {
+          "at": 0,
+          "state": "pursuerIntercept",
+          "distance": 80.2,
+          "ahead": -80.2
+        },
+        {
+          "at": 0.42,
+          "state": "pursuerAttack",
+          "distance": 73.8,
+          "ahead": -73.8
+        },
+        {
+          "at": 3.18,
+          "state": "pursuerPass",
+          "distance": 19.1,
+          "ahead": -7.9
+        },
+        {
+          "at": 5.33,
+          "state": "pursuerReposition",
+          "distance": 101.8,
+          "ahead": 99.5
+        },
+        {
+          "at": 7.35,
+          "state": "pursuerIntercept",
+          "distance": 149.8,
+          "ahead": 139.8
+        },
+        {
+          "at": 8.58,
+          "state": "pursuerAttack",
+          "distance": 72.8,
+          "ahead": 33.4
+        },
+        {
+          "at": 11.72,
+          "state": "pursuerPass",
+          "distance": 25.6,
+          "ahead": 3.6
+        },
+        {
+          "at": 13.83,
+          "state": "pursuerReposition",
+          "distance": 115.1,
+          "ahead": 18.3
+        },
+        {
+          "at": 16,
+          "state": "pursuerIntercept",
+          "distance": 196.7,
+          "ahead": 59.5
+        },
+        {
+          "at": 17.45,
+          "state": "pursuerAttack",
+          "distance": 73,
+          "ahead": 23.4
+        }
+      ],
+      "passes": 3,
+      "warningTime": 0,
+      "maxEnemySpeed": 99.52,
+      "maxChargeTurn": 0,
+      "maxAttackTurnRate": 1.9,
+      "maxPrepareTurnRate": 0,
+      "chargeStartTimes": [],
+      "timeBehind": 7.47,
+      "timeSilent": 8.45,
+      "attackTime": 8.45,
+      "attackShots": 9,
+      "silentAimTime": 2.25,
+      "offNearTime": 4.67,
+      "minOffAngle": 0.6,
+      "minOffDistance": 5.5,
+      "remaining": 1
+    }
+  },
+  "mines": {
+    "phase5": [
+      {
+        "level": 1,
+        "phase": 5,
+        "shots": 6,
+        "laserHits": 6,
+        "mineDamageEvents": 0,
+        "explosionEvents": 1
+      },
+      {
+        "level": 5,
+        "phase": 5,
+        "shots": 1,
+        "laserHits": 1,
+        "mineDamageEvents": 0,
+        "explosionEvents": 1
+      },
+      {
+        "level": 10,
+        "phase": 5,
+        "shots": 1,
+        "laserHits": 1,
+        "mineDamageEvents": 0,
+        "explosionEvents": 1
+      }
+    ],
+    "phase10": [
+      {
+        "level": 1,
+        "phase": 10,
+        "shots": 9,
+        "laserHits": 9,
+        "mineDamageEvents": 0,
+        "explosionEvents": 1
+      },
+      {
+        "level": 5,
+        "phase": 10,
+        "shots": 1,
+        "laserHits": 1,
+        "mineDamageEvents": 0,
+        "explosionEvents": 1
+      },
+      {
+        "level": 10,
+        "phase": 10,
+        "shots": 1,
+        "laserHits": 1,
+        "mineDamageEvents": 0,
+        "explosionEvents": 1
+      }
+    ],
+    "nearLaser": {
+      "level": 5,
+      "phase": 5,
+      "shots": 1,
+      "laserHits": 1,
+      "mineDamageEvents": 1,
+      "explosionEvents": 1
+    },
+    "farLaser": {
+      "level": 5,
+      "phase": 5,
+      "shots": 1,
+      "laserHits": 1,
+      "mineDamageEvents": 0,
+      "explosionEvents": 1
+    },
+    "insideBlastEdge": {
+      "level": 5,
+      "phase": 5,
+      "shots": 1,
+      "laserHits": 1,
+      "mineDamageEvents": 1,
+      "explosionEvents": 1
+    },
+    "outsideBlastEdge": {
+      "level": 5,
+      "phase": 5,
+      "shots": 1,
+      "laserHits": 1,
+      "mineDamageEvents": 0,
+      "explosionEvents": 1
+    },
+    "traverseNoFire": {
+      "fire": false,
+      "startDistance": 25,
+      "shotsFired": 0,
+      "laserHits": 0,
+      "mineDamageEvents": 1,
+      "triggerTime": 0.8,
+      "detonationTime": 1.0166666666666666,
+      "triggerToBlast": 0.217
+    },
+    "traverseFiring": {
+      "fire": true,
+      "startDistance": 25,
+      "shotsFired": 6,
+      "laserHits": 6,
+      "mineDamageEvents": 1,
+      "triggerTime": 0.6833333333333333,
+      "detonationTime": 0.8,
+      "triggerToBlast": 0.117
+    },
+    "traversalGrid": [
+      {
+        "fire": false,
+        "startDistance": 15,
+        "shotsFired": 0,
+        "laserHits": 0,
+        "mineDamageEvents": 0,
+        "triggerTime": null,
+        "detonationTime": null,
+        "triggerToBlast": null
+      },
+      {
+        "fire": true,
+        "startDistance": 15,
+        "shotsFired": 15,
+        "laserHits": 4,
+        "mineDamageEvents": 0,
+        "triggerTime": null,
+        "detonationTime": null,
+        "triggerToBlast": null
+      },
+      {
+        "fire": false,
+        "startDistance": 20,
+        "shotsFired": 0,
+        "laserHits": 0,
+        "mineDamageEvents": 0,
+        "triggerTime": null,
+        "detonationTime": null,
+        "triggerToBlast": null
+      },
+      {
+        "fire": true,
+        "startDistance": 20,
+        "shotsFired": 15,
+        "laserHits": 5,
+        "mineDamageEvents": 0,
+        "triggerTime": null,
+        "detonationTime": null,
+        "triggerToBlast": null
+      },
+      {
+        "fire": false,
+        "startDistance": 25,
+        "shotsFired": 0,
+        "laserHits": 0,
+        "mineDamageEvents": 1,
+        "triggerTime": 0.8,
+        "detonationTime": 1.0166666666666666,
+        "triggerToBlast": 0.217
+      },
+      {
+        "fire": true,
+        "startDistance": 25,
+        "shotsFired": 6,
+        "laserHits": 6,
+        "mineDamageEvents": 1,
+        "triggerTime": 0.6833333333333333,
+        "detonationTime": 0.8,
+        "triggerToBlast": 0.117
+      },
+      {
+        "fire": false,
+        "startDistance": 30,
+        "shotsFired": 0,
+        "laserHits": 0,
+        "mineDamageEvents": 1,
+        "triggerTime": 0.8,
+        "detonationTime": 1.0166666666666666,
+        "triggerToBlast": 0.217
+      },
+      {
+        "fire": true,
+        "startDistance": 30,
+        "shotsFired": 6,
+        "laserHits": 6,
+        "mineDamageEvents": 1,
+        "triggerTime": 0.6833333333333333,
+        "detonationTime": 0.8,
+        "triggerToBlast": 0.117
+      },
+      {
+        "fire": false,
+        "startDistance": 40,
+        "shotsFired": 0,
+        "laserHits": 0,
+        "mineDamageEvents": 1,
+        "triggerTime": 0.9333333333333333,
+        "detonationTime": 1.15,
+        "triggerToBlast": 0.217
+      },
+      {
+        "fire": true,
+        "startDistance": 40,
+        "shotsFired": 7,
+        "laserHits": 6,
+        "mineDamageEvents": 1,
+        "triggerTime": 0.7166666666666667,
+        "detonationTime": 0.8333333333333334,
+        "triggerToBlast": 0.117
+      },
+      {
+        "fire": false,
+        "startDistance": 50,
+        "shotsFired": 0,
+        "laserHits": 0,
+        "mineDamageEvents": 1,
+        "triggerTime": 1.2166666666666666,
+        "detonationTime": 1.4333333333333333,
+        "triggerToBlast": 0.217
+      },
+      {
+        "fire": true,
+        "startDistance": 50,
+        "shotsFired": 7,
+        "laserHits": 6,
+        "mineDamageEvents": 0,
+        "triggerTime": 0.7666666666666666,
+        "detonationTime": 0.8833333333333333,
+        "triggerToBlast": 0.117
+      }
+    ],
+    "shielded": {
+      "shieldsBefore": 1,
+      "shieldsAfter": 0,
+      "healthLost": 0,
+      "shieldProtection": 3,
+      "mineDamageEvents": 1,
+      "explosions": 1
+    },
+    "invulnerable": {
+      "shieldsBefore": 0,
+      "shieldsAfter": 0,
+      "healthLost": 0,
+      "shieldProtection": 0,
+      "mineDamageEvents": 0,
+      "explosions": 1
+    },
+    "armored": {
+      "shieldsBefore": 0,
+      "shieldsAfter": 0,
+      "healthLost": 28.50625,
+      "shieldProtection": 0,
+      "mineDamageEvents": 1,
+      "explosions": 1
+    }
+  },
+  "mineStates": {
+    "armingNoDamage": true,
+    "activeTriggered": true,
+    "activeRingRadius": 7.5,
+    "ringScaleAtDetonation": 8.7,
+    "overlapBlocked": true,
+    "detonationSurvivesExpiry": true,
+    "entityCapRespected": true,
+    "pendingExplosionsPreserved": true
+  },
+  "obstacleCheck": {
+    "blockedStraightCharge": true,
+    "clearAlternatePath": true
+  },
+  "combined": {
+    "seed": 71,
+    "wallMs": 56.8,
+    "enemyShots": 9,
+    "bulletHits": 3,
+    "contactHits": 2,
+    "mineHits": 3,
+    "minesSpawned": 11,
+    "maxMines": 5,
+    "minesRemaining": 5,
+    "enemiesRemaining": 2,
+    "states": {
+      "hammerApproach": 3.6166666666666587,
+      "flee": 21.900000000000038,
+      "pursuerAttack": 8.51666666666667,
+      "hammerPrepare": 0.6000000000000002,
+      "hammerRecover": 2.0166666666666644,
+      "pursuerPass": 6.26666666666665,
+      "pursuerReposition": 3.9999999999999907,
+      "patrol": 31.866666666666138,
+      "pursuerIntercept": 11.216666666666804
+    }
+  },
+  "combinedRuns": [
+    {
+      "seed": 71,
+      "wallMs": 56.8,
+      "enemyShots": 9,
+      "bulletHits": 3,
+      "contactHits": 2,
+      "mineHits": 3,
+      "minesSpawned": 11,
+      "maxMines": 5,
+      "minesRemaining": 5,
+      "enemiesRemaining": 2,
+      "states": {
+        "hammerApproach": 3.6166666666666587,
+        "flee": 21.900000000000038,
+        "pursuerAttack": 8.51666666666667,
+        "hammerPrepare": 0.6000000000000002,
+        "hammerRecover": 2.0166666666666644,
+        "pursuerPass": 6.26666666666665,
+        "pursuerReposition": 3.9999999999999907,
+        "patrol": 31.866666666666138,
+        "pursuerIntercept": 11.216666666666804
+      }
+    },
+    {
+      "seed": 72,
+      "wallMs": 53,
+      "enemyShots": 9,
+      "bulletHits": 4,
+      "contactHits": 2,
+      "mineHits": 3,
+      "minesSpawned": 11,
+      "maxMines": 6,
+      "minesRemaining": 3,
+      "enemiesRemaining": 2,
+      "states": {
+        "hammerApproach": 3.6166666666666587,
+        "flee": 22.116666666666692,
+        "pursuerAttack": 8.51666666666667,
+        "hammerPrepare": 0.6000000000000002,
+        "hammerRecover": 2.0166666666666644,
+        "pursuerPass": 6.916666666666647,
+        "pursuerReposition": 4.383333333333323,
+        "patrol": 31.649999999999483,
+        "pursuerIntercept": 10.183333333333419
+      }
+    },
+    {
+      "seed": 73,
+      "wallMs": 47.8,
+      "enemyShots": 9,
+      "bulletHits": 0,
+      "contactHits": 1,
+      "mineHits": 3,
+      "minesSpawned": 11,
+      "maxMines": 7,
+      "minesRemaining": 5,
+      "enemiesRemaining": 2,
+      "states": {
+        "hammerApproach": 3.6166666666666587,
+        "flee": 22.566666666666666,
+        "pursuerAttack": 8.700000000000012,
+        "hammerPrepare": 0.6000000000000002,
+        "hammerRecover": 2.0166666666666644,
+        "pursuerPass": 7.116666666666647,
+        "pursuerReposition": 4.499999999999989,
+        "patrol": 31.19999999999951,
+        "pursuerIntercept": 9.683333333333394
+      }
+    },
+    {
+      "seed": 74,
+      "wallMs": 47.8,
+      "enemyShots": 9,
+      "bulletHits": 0,
+      "contactHits": 2,
+      "mineHits": 2,
+      "minesSpawned": 11,
+      "maxMines": 6,
+      "minesRemaining": 5,
+      "enemiesRemaining": 2,
+      "states": {
+        "hammerApproach": 3.6166666666666587,
+        "flee": 22.63333333333333,
+        "pursuerAttack": 8.633333333333342,
+        "hammerPrepare": 0.6000000000000002,
+        "hammerRecover": 2.0166666666666644,
+        "pursuerPass": 7.033333333333314,
+        "pursuerReposition": 5.949999999999984,
+        "patrol": 31.133333333332846,
+        "pursuerIntercept": 8.38333333333333
+      }
+    },
+    {
+      "seed": 75,
+      "wallMs": 49.8,
+      "enemyShots": 9,
+      "bulletHits": 0,
+      "contactHits": 3,
+      "mineHits": 3,
+      "minesSpawned": 11,
+      "maxMines": 6,
+      "minesRemaining": 4,
+      "enemiesRemaining": 2,
+      "states": {
+        "hammerApproach": 3.6166666666666587,
+        "flee": 22.350000000000012,
+        "pursuerAttack": 8.816666666666684,
+        "hammerPrepare": 0.6000000000000002,
+        "hammerRecover": 2.0166666666666644,
+        "pursuerPass": 5.833333333333318,
+        "pursuerReposition": 4.016666666666658,
+        "patrol": 31.416666666666163,
+        "pursuerIntercept": 11.333333333333476
+      }
+    }
+  ]
+}
